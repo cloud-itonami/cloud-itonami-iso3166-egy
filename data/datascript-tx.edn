@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "egy.law-159-1981-companies-law"
+           :title "Law No. 159 of 1981 Regarding the Issuance of the Law on Joint Stock Companies, Limited Partnership Companies with Shares, Limited Liability Companies, and Single-Person Companies"
+           :jurisdiction "EGY"
+           :kind :law
+           :law-number "Law No. 159 of 1981"
+           :url "https://lawyeregypt.net/%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D8%A9/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D8%B1%D9%82%D9%85-159-%D9%84%D8%B3%D9%86%D8%A9-1981/"
+           :url-provenance :lawyeregypt-net-legal-database
+           :enacted-date "1981-09-17"
+           :retrieved-at "2026-07-16"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "egy.law-151-2020-personal-data-protection"
+           :title "Personal Data Protection Law"
+           :jurisdiction "EGY"
+           :kind :law
+           :law-number "Law No. 151 of 2020"
+           :url "https://mcit.gov.eg/Upcont/Documents/Reports%20and%20Documents_1232021000_Law_No_151_2020_Personal_Data_Protection.pdf"
+           :url-provenance :official-mcit-gov-eg
+           :enacted-date "2020-07-13"
+           :retrieved-at "2026-07-16"
+           :topic [:data-protection :privacy]}]
